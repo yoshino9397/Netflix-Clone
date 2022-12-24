@@ -1,1 +1,3 @@
-# Netflix-Clone
+# NextJS
+# Typescript
+# TailwindCSS
