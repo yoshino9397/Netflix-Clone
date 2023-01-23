@@ -1,8 +1,13 @@
+import Image from "next/image";
 
 const Banner = () => {
   return (
-    <div>Banner</div>
-  )
-}
+    <div>
+      <div>
+        <Image src="" alt="" />
+      </div>
+    </div>
+  );
+};
 
-export default Banner
+export default Banner;
