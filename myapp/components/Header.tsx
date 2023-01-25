@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { BellIcon, MagnifyingGlassIcon } from "@heroicons/react/24/solid";
+import { BsBell, BsSearch } from "react-icons/bs";
+
 import Link from "next/link";
 
 const Header = () => {
@@ -39,9 +40,9 @@ const Header = () => {
         </ul>
       </div>
       <div className="flex items-center space-x-4 text-sm font-light">
-        <MagnifyingGlassIcon className="hidden h-6 w-6 sm:inline" />
-        <p className="hidden lg:inline">Kids</p>
-        <BellIcon className="h-6 w-6" />
+        <BsSearch className="hidden h-5 w-5 sm:inline" />
+        <p className="hidden lg:inline text-lg">Kids</p>
+        <BsBell className="h-5 w-5" />
         <Link href="/account">
           <Image
             src="https://rb.gy/g1pwyx"
